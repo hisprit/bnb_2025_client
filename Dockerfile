@@ -12,4 +12,4 @@ RUN npm install
 # 앱 실행 포트
 EXPOSE 9000
 # 앱 실행
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "build"]

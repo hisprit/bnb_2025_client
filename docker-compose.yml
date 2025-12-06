@@ -7,6 +7,4 @@ services:
     container_name: bnb-client
     restart: always
     ports:
-      - "9000:9000" # 외부포트 : 내부 앱실행 포트
-    volumes:
-      - /home/ubuntu/apps/uploadData:/upload
+      - "9000:9000" # 외부포트 : 내부 앱실행 포트       
