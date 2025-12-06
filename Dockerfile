@@ -10,6 +10,6 @@ COPY . .
 # node 의존성 설치
 RUN npm install
 # 앱 실행 포트
-EXPOSE 18000
+EXPOSE 9000
 # 앱 실행
 CMD ["npm", "run", "start"]
