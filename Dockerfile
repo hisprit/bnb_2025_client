@@ -1,4 +1,4 @@
-FROM node:22
+FROM node:24
 # 시간대를 서울로 설정
 RUN apt-get update && apt-get install -y tzdata
 ENV TZ=Asia/Seoul
