@@ -9,7 +9,12 @@ COPY . .
 
 # node 의존성 설치
 RUN npm install
+
+# 앱 build
+RUN npm run build
+
 # 앱 실행 포트
-EXPOSE 9000
+EXPOSE 3000
+
 # 앱 실행
-CMD ["npm", "run", "build"]
+CMD ["npm", "run", "start"]
