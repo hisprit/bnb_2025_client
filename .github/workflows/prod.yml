@@ -17,6 +17,6 @@ jobs:
          key: ${{ secrets.SSH_KEY }}
          port: ${{ secrets.SSH_PORT }}
          script: |
-           cd /home/ubuntu/apps/bnb_2025_server
+           cd /home/ubuntu/apps/bnb_2025_client
            git pull
            sudo docker compose up -d --build
